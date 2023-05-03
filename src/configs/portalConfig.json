@@ -4,10 +4,7 @@
     "perspectives": {
         "searchPerspectives": [
             "statutes",
-            "sections",
-            "caselaw",
-            "situations",
-            "caselawfinder"
+            "sections"
         ],
         "onlyInstancePages": []
     },
