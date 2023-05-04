@@ -392,6 +392,12 @@ export default {
           description: `
             Säädöksen kontekstuaalinen sisältö
           `
+        },
+        source: {
+          label: 'Lähde',
+          description: `
+            Lähde
+          `
         }
       }
     },
@@ -518,6 +524,12 @@ export default {
           label: 'Pykälän kontekstuaalinen sisältö',
           description: `
             Kontekstuaalinen sisältö
+          `
+        },
+        source: {
+          label: 'Lähde',
+          description: `
+            Lähde
           `
         }
       }

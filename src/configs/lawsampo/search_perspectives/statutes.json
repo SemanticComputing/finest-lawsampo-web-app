@@ -1,7 +1,7 @@
 {
     "id": "statutes",
     "endpoint": {
-        "url": "http://localhost:3066/ds",
+        "url": "http://localhost:3068/ds",
         "useAuth": true,
         "prefixesFile": "SparqlQueriesPrefixes.js"
     },
@@ -271,6 +271,20 @@
             "sortButton": true,
             "sortBy": "instanceCount",
             "sortByPredicate": "eli:transposes/skos:prefLabel",
+            "sortDirection": "desc"
+        },
+        "source": {
+            "containerClass": "ten",
+            "facetType": "list",
+            "filterType": "uriFilter",
+            "literal": true,
+            "hideUnknownValue": false,
+            "pieChartButton": true,
+            "predicate": "dc:source",
+            "searchField": true,
+            "sortButton": true,
+            "sortBy": "instanceCount",
+            "sortByPredicate": "dc:source",
             "sortDirection": "desc"
         }
     }

@@ -380,6 +380,12 @@ export default {
           description: `
           Link to the statute in Säädösmuutosten hakemisto
         `
+        },
+        source: {
+          label: 'Source',
+          description: `
+            Source
+          `
         }
       }
     },
@@ -514,6 +520,12 @@ export default {
           label: 'Annotated content (HTML)',
           description: `
             Annotated content (HTML)
+          `
+        },
+        source: {
+          label: 'Lähde',
+          description: `
+            Lähde
           `
         }
       }
